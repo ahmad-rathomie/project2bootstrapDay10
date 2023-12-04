@@ -1,0 +1,39 @@
+.bg-img{
+    background-image: url("padi2.jpg");
+     width: 100%;
+     height: 500px;
+     background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+ 
+
+}
+@media screen and (max-width:1000px) {  
+    .bg-img {
+      display: none;
+    }
+}
+
+ button{
+    background: transparent;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(50, 185, 149);
+    font-weight: bold;
+    border:  1px;
+    
+}
+.topnav{
+    float: right;
+}
+
+h1 p{
+    margin-top: 90px;
+}
+.logo{
+    float: left;
+}
+.about{
+    padding-top: 40px;
+    font-weight: bold;
+}
